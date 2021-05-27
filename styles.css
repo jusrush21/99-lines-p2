@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(181, 235, 210);
+    font-family: 'Roboto', sans-serif;
+    font-style: oblique;
+}
+
+h1 {
+    color: blue 
+}
+
+.friend {
+    background-color: coral;
+    border-radius: 5px;
+}
+
+.friend > h3 {
+    text-transform: uppercase
+}
